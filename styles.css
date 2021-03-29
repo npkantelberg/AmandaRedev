@@ -792,7 +792,7 @@ body ol {
       .contact-wrapper div.wpforms-container-full .wpforms-form .wpforms-field-container .wpforms-field {
         padding-bottom: 0px; }
 
-.contact-wrapper,
+.contact-wrapper, 
 .cal-wrapper {
   margin-top: 25px; }
 
@@ -893,9 +893,6 @@ body ol {
   margin-bottom: 25px;
   flex-basis: 100%;
   padding: 10px; }
-  .about-page .about-content li {
-    list-style: none;
-    font-size: 20px; }
 
 .about-page .about-content p {
   font-size: 20px; }
