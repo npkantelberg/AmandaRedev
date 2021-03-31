@@ -9,7 +9,7 @@
         </div>
         <div class="about-content-left">
           <div class="about-content-image">
-            <img src="<?php bloginfo('template_url'); ?>/images/About/amanda.jpg" alt="Photo of Amanda">
+            <img src="<?php bloginfo('template_url'); ?>/images/About/my-work.jpg" alt="Photo of Amanda">
           </div>
         </div>
         <div class="about-content">
@@ -33,7 +33,7 @@
         </div>
         <div class="about-content-right">
           <div class="about-content-image">
-            <img src="<?php bloginfo('template_url'); ?>/images/About/my-work.jpg" alt="Photo of Amanda">
+            <img src="<?php bloginfo('template_url'); ?>/images/About/amanda.jpg" alt="Photo of Amanda">
           </div>
         </div>
           </section>

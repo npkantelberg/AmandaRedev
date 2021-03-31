@@ -69,6 +69,7 @@
                     <li><a href="/family/" class="menu-sub-item">Children/Family</a></li>
                     <!--<li><a href="http://amandaleaphotography.com/clp/portraits.php" class="menu-sub-item">Portraits</a></li>-->
                     <li><a href="/couples/" class="menu-sub-item">Couples</a></li>
+                    <li><a href="/maternity/" class="menu-sub-item">Maternity</a></li>
                   </ul>
                 </li>
                 <li class="menu-item"><a href="/about-me/">About</a></li>
@@ -96,6 +97,7 @@
                   <li><a href="/family/" class="mobile-menu-sub-item">Children/Family</a></li>
                   <!--<li><a href="http://amandaleaphotography.com/clp/portraits.php" class="mobile-menu-sub-item">Portraits</a></li>-->
                   <li><a href="/couples/" class="mobile-menu-sub-item">Couples</a></li>
+                  <li><a href="/maternity/" class="menu-sub-item">Maternity</a></li>
                 </ul>
               </li>
               <li class="mobile-menu-item"><a href="/about-me/">About</a></li>
