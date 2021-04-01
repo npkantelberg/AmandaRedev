@@ -372,7 +372,8 @@ body ol {
   max-height: 0;
   height: auto;
   margin-top: 16px;
-  background: #222; }
+  background: #222;
+  padding: 0px 10px; }
 
 .jumbotron-section .menu-item.menu-item-dropdown:active .menu-sub-list,
 .jumbotron-section .menu-item.menu-item-dropdown:focus .menu-sub-list,
