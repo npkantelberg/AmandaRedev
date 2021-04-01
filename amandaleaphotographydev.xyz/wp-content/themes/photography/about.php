@@ -4,9 +4,9 @@
 
     <section class="about-section">
       <div id="about-wrapper" class="about-wrapper">
-        <div class="about-header">
-          <img src="<?php bloginfo('template_url'); ?>/images/About/about-header.jpg" alt="About header">
-        </div>
+        <!-- <div class="about-header">
+          <img src="<?php //bloginfo('template_url'); ?>/images/About/about-header.jpg" alt="About header">
+        </div> -->
         <div class="about-content-left">
           <div class="about-content-image">
             <img src="<?php bloginfo('template_url'); ?>/images/About/my-work.jpg" alt="Photo of Amanda">
