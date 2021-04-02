@@ -17,13 +17,14 @@
     <div class="row price-row">
       <div class="col-xs-12 price-box-text">
         <p>
-          Brooklyn meditation tumeric fixie dreamcatcher shaman, hammock vinyl pour-over. Vinyl freegan you probably haven't heard of them air plant pok pok neutra. Glossier pabst thundercats vape. Flannel trust fund 3 wolf moon snackwave, narwhal put a bird on it hella godard twee banh mi ennui squid selfies roof party. Distillery activated charcoal cardigan vexillologist tilde poke seitan. Mustache cardigan skateboard church-key.
-        </p>
-        <p>
-          Lyft green juice DIY, cornhole glossier unicorn mlkshk shabby chic cliche flexitarian. Hoodie quinoa venmo readymade vegan, pabst aesthetic portland messenger bag PBR&B. Woke scenester fixie godard, yuccie hell of microdosing. Fam hella viral pitchfork keytar. Intelligentsia asymmetrical man bun pug prism palo santo butcher try-hard raw denim offal tilde hella next level blog. Master cleanse retro 8-bit schlitz, authentic semiotics tousled snackwave synth VHS mlkshk cray crucifix.
+          All packages include an online gallery, flash drive with edited images, and a print release. 
+          The most important part of my job is capturing your story the way you want it. Services are subject to change to suit your needs. Please contact me to design a custom package.
+          Print product options available at additional cost. 
+          *Additional $0.30 per mile for locations outside of a 20 mile radius of Oshkosh area.
         </p>
       </div>
-      <div class="col-xs-12 price-col">
+      
+      <!-- <div class="col-xs-12 price-col">
         <div class="price-box">
           <div class="price-box-inner">
             <h3>Wedding</h3>
@@ -77,8 +78,14 @@
             <p>2 Hours</p>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
+  </div>
+</section>
+
+<section class="package-section">
+  <div class="package-wrapper">
+    
   </div>
 </section>
 
