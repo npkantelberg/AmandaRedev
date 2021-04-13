@@ -397,7 +397,7 @@ body ol {
   transition: .5s all;
   max-height: 190px;
   height: auto;
-  padding: 15px 0;
+  padding: 15px 10px;
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px; }
 
@@ -499,7 +499,6 @@ body ol {
   color: #fff;
   font-size: 40px;
   text-align: center;
-  min-width: 500px;
   z-index: 0;
   text-shadow: 0 0 5px #000;
   background: rgba(0, 0, 0, 0.3); }
@@ -508,6 +507,73 @@ body ol {
   border-top: solid 1px #fff;
   border-bottom: solid 1px #fff;
   padding: 30px; }
+
+.price-section .price-box-text p {
+  color: #fff;
+  font-style: italic;
+  padding: 20px 0px;
+  margin-bottom: 0px; }
+
+.investment-cards {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap; }
+  .investment-cards .investment-card {
+    display: flex;
+    flex-wrap: wrap;
+    border: solid 4px #fff;
+    margin-bottom: 35px;
+    max-width: 800px;
+    flex-basis: 100%;
+    background: #afceca;
+    align-items: center; }
+    .investment-cards .investment-card .investment-card-image {
+      flex: 0 0 30%;
+      min-height: 320px; }
+      @media screen and (max-width: 767px) {
+        .investment-cards .investment-card .investment-card-image {
+          order: 1; } }
+      .investment-cards .investment-card .investment-card-image.weddings-image {
+        background: url("../../images/investment/weddings.jpg") no-repeat center center;
+        background-size: cover; }
+      .investment-cards .investment-card .investment-card-image.family-image {
+        background: url("../../images/investment/family.jpg") no-repeat center center;
+        background-size: cover; }
+      .investment-cards .investment-card .investment-card-image.seniors-image {
+        background: url("../../images/investment/seniors.jpg") no-repeat center center;
+        background-size: cover; }
+      .investment-cards .investment-card .investment-card-image.newborn-image {
+        background: url("../../images/investment/family.jpg") no-repeat center center;
+        background-size: cover; }
+      .investment-cards .investment-card .investment-card-image.groups-image {
+        background: url("../../images/investment/seniors.jpg") no-repeat center center;
+        background-size: cover; }
+      .investment-cards .investment-card .investment-card-image img {
+        max-height: 320px; }
+      @media screen and (max-width: 650px) {
+        .investment-cards .investment-card .investment-card-image {
+          flex: 1 0 100%; } }
+    .investment-cards .investment-card .investment-card-content {
+      flex: 1;
+      background: #afceca;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap; }
+      @media screen and (max-width: 767px) {
+        .investment-cards .investment-card .investment-card-content {
+          padding: 15px 0px;
+          order: 2; } }
+      .investment-cards .investment-card .investment-card-content h2, .investment-cards .investment-card .investment-card-content p {
+        width: 100%;
+        margin-bottom: 0px; }
+      .investment-cards .investment-card .investment-card-content p {
+        font-size: 20px; }
+      .investment-cards .investment-card .investment-card-content h2 {
+        font-size: 30px;
+        font-weight: bold; }
+    .investment-cards .investment-card.investment-card-right {
+      margin-left: auto; }
 
 @media (min-width: 768px) {
   .mobile-menu-dropdown {
@@ -1319,27 +1385,3 @@ body ol {
     font-size: 15px; } }
 
 /*Gallery End*/
-/*
-.jumbotron-section .menu-outer{
-  z-index: 1;
-  color: #fff;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  flex-basis: 100%;
-  z-index: 1;
-}
-.jumbotron-section .menu-inner{
-  display: flex;
-}
-.jumbotron-section .menu-item-wrapper{
-  padding: 10px;
-  display: inline-block;
-  max-width: calc(448px / 5);
-  text-align: center;
-  position: relative;
-}
-.jumbotron-section .menu-sub-item{
-  display: block;
-}
-*/

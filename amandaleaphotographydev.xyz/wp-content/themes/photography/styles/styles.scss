@@ -416,7 +416,7 @@ body ol{
   transition: .5s all;
   max-height: 190px;
   height: auto;
-  padding: 15px 0;
+  padding: 15px 10px;
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
 }
@@ -518,7 +518,6 @@ body ol{
   color: #fff;
   font-size: 40px;
   text-align: center;
-  min-width: 500px;
   z-index: 0;
   text-shadow: 0 0 5px #000;
   background: rgba(0,0,0,0.3);
@@ -528,48 +527,90 @@ body ol{
   border-bottom: solid 1px #fff;
   padding: 30px;
 }
-// .price-section{
-//   padding: 50px 0;
-// }
-// .price-container .price-col{
-//   display: flex;
-//   justify-content: space-around;
-//   flex-wrap: wrap;
-//   align-items: center;
-// }
-// .price-container .price-row .price-box{
-//   background: #dbdbdb;
-//   width: 300px;
-//   min-height: 306px;
-//   flex-basis: 300px;
-//   padding: 30px;
-//   margin: 7.5px;
-//   text-align: center;
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   box-shadow: 3px 3px 8px #000;
-//   border-radius: 2px;
-// }
-// .price-container .price-row .price-box p{
-//   /*width: 100%;
-//   display: block;*/
-// }
-// .price-box-text{
-//   font-size: 16px;
-//   color: #fff;
-//   margin-bottom: 30px;
-//   text-align: center;
-// }
-// .price-box:not(:nth-child(5)),
-// .price-box:not(:nth-child(2)){
-//   max-height: 367.4px
-// }
-// .price-box:nth-child(5),
-// .price-box:nth-child(2){
-//   padding: 150px 0px !important;
-//   height: 416.5px;
-// }
+.price-section{
+  .price-box-text{
+    p {
+      color: #fff;
+      font-style: italic;
+      padding: 20px 0px;
+      margin-bottom: 0px;
+    }
+  } 
+}
+.investment-cards {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  .investment-card {
+    display: flex;
+    flex-wrap: wrap;
+    border: solid 4px #fff;
+    margin-bottom: 35px;
+    max-width: 800px;
+    flex-basis: 100%;
+    background: #afceca;
+    align-items: center;
+    .investment-card-image {
+      flex: 0 0 30%;
+      min-height: 320px;
+      @media screen and (max-width: 767px){
+        order: 1;
+      }
+      &.weddings-image{
+        background: url('../../images/investment/weddings.jpg') no-repeat center center;
+        background-size: cover;
+      }
+      &.family-image{
+        background: url('../../images/investment/family.jpg') no-repeat center center;
+        background-size: cover;
+      }
+      &.seniors-image{
+        background: url('../../images/investment/seniors.jpg') no-repeat center center;
+        background-size: cover;
+      }
+      &.newborn-image{
+        background: url('../../images/investment/family.jpg') no-repeat center center;
+        background-size: cover;
+      }
+      &.groups-image{
+        background: url('../../images/investment/seniors.jpg') no-repeat center center;
+        background-size: cover;
+      }
+      img {
+        max-height: 320px;
+      }
+      @media screen and (max-width: 650px){
+        flex: 1 0 100%;
+      }
+    }
+    .investment-card-content {
+      flex: 1;
+      background: #afceca;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      @media screen and (max-width: 767px){
+        padding: 15px 0px;
+        order: 2;
+      }
+      h2,p{
+        width: 100%;
+        margin-bottom: 0px;
+      }
+      p{
+        font-size: 20px;
+      }
+      h2{
+        font-size: 30px;
+        font-weight: bold;
+      }
+    }
+    &.investment-card-right {
+      margin-left: auto;
+    }
+  }
+}
 @media(min-width: 768px){
   .mobile-menu-dropdown{
     display: none;
@@ -1454,28 +1495,3 @@ body ol{
   }
 }
 /*Gallery End*/
-
-  /*
-.jumbotron-section .menu-outer{
-  z-index: 1;
-  color: #fff;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  flex-basis: 100%;
-  z-index: 1;
-}
-.jumbotron-section .menu-inner{
-  display: flex;
-}
-.jumbotron-section .menu-item-wrapper{
-  padding: 10px;
-  display: inline-block;
-  max-width: calc(448px / 5);
-  text-align: center;
-  position: relative;
-}
-.jumbotron-section .menu-sub-item{
-  display: block;
-}
-*/
