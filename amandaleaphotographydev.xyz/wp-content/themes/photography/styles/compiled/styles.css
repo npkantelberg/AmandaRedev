@@ -925,6 +925,10 @@ body ol {
 .about-page .about-content p {
   font-size: 20px; }
 
+.about-page .about-content ul p {
+  margin-bottom: 0px;
+  font-weight: bold; }
+
 .about-page .about-content-left {
   min-width: 320px;
   flex-basis: 50%;
