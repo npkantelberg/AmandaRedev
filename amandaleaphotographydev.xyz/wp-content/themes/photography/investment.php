@@ -3,14 +3,14 @@
 
 <body class="investment-page">
 
-<section class="investment-header">
+<!-- <section class="investment-header">
   <div class="investment-header-image">
     <img src="<?php bloginfo('template_url'); ?>/images/slides/lindsey-banner.jpg" alt="The andersons wedding photo">
   </div>
   <div class="investment-header-text">
     <p>Packages</p>
   </div>
-</section>
+</section> -->
 
 <section class="price-section">
   <div class="container price-container">
@@ -22,6 +22,94 @@
           Print product options available at additional cost. 
           *Additional $0.30 per mile for locations outside of a 20 mile radius of Oshkosh area.
         </p>
+      </div>
+
+      <div class="col-xs-12 investment-cards">
+        <div class="investment-card investment-card-left">
+          <div class="investment-card-image weddings-image">
+            <!-- <img src="<?php //bloginfo('template_url'); ?>/images/investment/weddings.jpg" alt=""> -->
+          </div>
+          <div class="investment-card-content">
+            <h2>Weddings</h2>
+            <p class="price-line">
+              $1500
+            </p>
+            <p class="investment-content-content">
+              8 hours of coverage
+            </p>
+            <p class="investment-content-content">
+              Engagement Session
+            </p>
+          </div>
+        </div>
+        <div class="investment-card investment-card-right">
+          <div class="investment-card-content">
+            <h2>Engagement / Family / Maternity / Portraits</h2>
+            <p class="price-line">
+              $150
+            </p>
+            <p class="investment-content-content">
+              30 minute session
+            </p>
+          </div>
+          <div class="investment-card-image family-image">
+            <!-- <img src="<?php //bloginfo('template_url'); ?>/images/investment/family.jpg" alt=""> -->
+          </div>
+        </div>
+        <div class="investment-card investment-card-left">
+          <div class="investment-card-image seniors-image">
+            <!-- <img src="<?php //bloginfo('template_url'); ?>/images/investment/seniors.jpg" alt=""> -->
+          </div>
+          <div class="investment-card-content">
+            <h2>Seniors</h2>
+            <p class="price-line">
+              $250
+            </p>
+            <p class="investment-content-content">
+              2-3 hour session
+            </p>
+            <p class="investment-content-content">
+              Unlimited outfits within time frame
+            </p>
+            <p class="investment-content-content">
+              Photo gift
+            </p>
+          </div>
+        </div>
+        <div class="investment-card investment-card-right">
+          <div class="investment-card-content">
+            <h2>Newborn</h2>
+            <p class="price-line">
+              $250
+            </p>
+            <p class="investment-content-content">
+              2-3 hour session
+            </p>
+            <p class="investment-content-content">
+              Photo gift
+            </p>
+          </div>
+          <div class="investment-card-image newborn-image">
+            <!-- <img src="<?php //bloginfo('template_url'); ?>/images/investment/family.jpg" alt=""> -->
+          </div>
+        </div>
+        <div class="investment-card investment-card-left">
+          <div class="investment-card-image groups-image">
+            <!-- <img src="<?php //bloginfo('template_url'); ?>/images/investment/seniors.jpg" alt=""> -->
+          </div>
+          <div class="investment-card-content">
+            <h2>Groups(10+)</h2>
+            <p class="price-line">
+              $200
+            </p>
+            <p class="investment-content-content">
+              1 hour session
+            </p>
+            <p class="investment-content-content">
+              $15 per additional flash drive
+            </p>
+          </div>
+        </div>
       </div>
       
       <!-- <div class="col-xs-12 price-col">

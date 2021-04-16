@@ -116,7 +116,7 @@
 
           <div class="slogan-wrapper">
             <div class="slogan-box">
-              <span>Every photo is a story, what would you like yours to say.</span>
+              <span>Every photo is a story, what would you like yours to say?</span>
             </div>
           </div>
 					<!-- Slideshow container -->

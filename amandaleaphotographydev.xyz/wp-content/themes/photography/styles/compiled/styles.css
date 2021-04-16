@@ -512,7 +512,12 @@ body ol {
   color: #fff;
   font-style: italic;
   padding: 20px 0px;
-  margin-bottom: 0px; }
+  margin: 30px auto;
+  font-size: 30px; }
+  @media screen and (max-width: 767px) {
+    .price-section .price-box-text p {
+      font-size: 20px;
+      padding: 10px; } }
 
 .investment-cards {
   width: 100%;
@@ -543,10 +548,10 @@ body ol {
         background: url("../../images/investment/seniors.jpg") no-repeat center center;
         background-size: cover; }
       .investment-cards .investment-card .investment-card-image.newborn-image {
-        background: url("../../images/investment/family.jpg") no-repeat center center;
+        background: url("../../images/investment/Investment_Newborn.jpg") no-repeat center center;
         background-size: cover; }
       .investment-cards .investment-card .investment-card-image.groups-image {
-        background: url("../../images/investment/seniors.jpg") no-repeat center center;
+        background: url("../../images/investment/Investment_Group.jpg") no-repeat center center;
         background-size: cover; }
       .investment-cards .investment-card .investment-card-image img {
         max-height: 320px; }

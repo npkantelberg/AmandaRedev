@@ -533,7 +533,12 @@ body ol{
       color: #fff;
       font-style: italic;
       padding: 20px 0px;
-      margin-bottom: 0px;
+      margin: 30px auto;
+      font-size: 30px;
+      @media screen and (max-width: 767px){
+        font-size: 20px;
+        padding: 10px;
+      }
     }
   } 
 }
@@ -569,11 +574,11 @@ body ol{
         background-size: cover;
       }
       &.newborn-image{
-        background: url('../../images/investment/family.jpg') no-repeat center center;
+        background: url('../../images/investment/Investment_Newborn.jpg') no-repeat center center;
         background-size: cover;
       }
       &.groups-image{
-        background: url('../../images/investment/seniors.jpg') no-repeat center center;
+        background: url('../../images/investment/Investment_Group.jpg') no-repeat center center;
         background-size: cover;
       }
       img {
